@@ -35,7 +35,7 @@ sections:
   path: config.toml
   label: Site Config
 upload_dir: static/images
-public_path: "/images"
+public_path: static/images
 front_matter_path: "/static"
 use_front_matter_path: false
 file_template: ":filename:"
