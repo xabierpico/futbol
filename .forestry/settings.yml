@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Contenidos
+- type: directory
+  path: ''
+  label: Tactics
+  create: all
+  match: "**/*"
+- type: heading
   label: Content
 - type: document
   path: content/about/info.md
