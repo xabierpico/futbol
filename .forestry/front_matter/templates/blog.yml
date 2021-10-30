@@ -6,19 +6,6 @@ fields:
   name: title
   label: Title
   default: default
-- name: author
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: authors-list
-      file: content/data/authors.yaml
-      path: authors
-  label: Author
-  description: Choose author here, add new authors in Authors List
 - type: datetime
   name: date
   label: Date
